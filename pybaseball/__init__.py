@@ -99,4 +99,5 @@ from .datasources.fangraphs import (fg_batting_data, fg_pitching_data, fg_team_b
                                     fg_team_pitching_data)
 from .split_stats import get_splits
 from .split_stats import get_team_splits
+from .player_gamelogs import get_player_gamelog
 from .version import __version__
